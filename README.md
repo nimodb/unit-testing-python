@@ -8,9 +8,9 @@ Key Concepts in Unit Testing
 - Test Runner: A component that runs tests and provides the results.
 - Assertions: Statements that check if a condition is true. If the condition is false, the test fails.
 
-[Basic Example]()
+[Basic Example](https://github.com/nimodb/unit-testing-python/tree/main/simpleEx)
 
-[Complex Example]()
+[Complex Example](https://github.com/nimodb/unit-testing-python/tree/main/complexEx)
 
 ### Explanation of complex example
 
