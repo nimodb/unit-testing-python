@@ -8,9 +8,11 @@ Key Concepts in Unit Testing
 - Test Runner: A component that runs tests and provides the results.
 - Assertions: Statements that check if a condition is true. If the condition is false, the test fails.
 
-[Basic Example](https://github.com/nimodb/unit-testing-python/tree/main/simpleEx)
 
-[Complex Example](https://github.com/nimodb/unit-testing-python/tree/main/complexEx)
+## [Complex Example](https://github.com/nimodb/unit-testing-python/tree/main/complexEx)
+
+
+## [Basic Example](https://github.com/nimodb/unit-testing-python/tree/main/simpleEx)
 
 ### Explanation of complex example
 
@@ -25,3 +27,14 @@ Key Concepts in Unit Testing
 
 - `setUp`: This method is called before each test. It creates a `BankAccount` instance with an initial balance of 100.
 - Each test method checks a specific aspect of the `BankAccount` class, using assertions to verify the expected outcomes.
+
+
+## [Django Example](https://github.com/nimodb/unit-testing-python/tree/main/djangoEx)
+
+### [Explanation of Library Project]()
+A Django-based library catalog application where users can view and add books to the catalog.
+
+You can generate dummy books with German authors by running the following management command:
+```sh
+python manage.py generate_books
+```

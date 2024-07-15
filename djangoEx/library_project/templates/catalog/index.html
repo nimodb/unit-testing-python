@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Catalog</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'catalog/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Library Catalog</h1>
+        <ul class="book-list">
+            {% for book in books %}
+            <li><b>{{ book.title }}</b> by <i>{{ book.author }}</i> ({{ book.published_date }})</li>
+            {% endfor %}
+        </ul>
+        <a class="add-book-link" href="{% url 'catalog:add_book' %}">Add a new book</a>
+    </div>
+</body>
+</html>

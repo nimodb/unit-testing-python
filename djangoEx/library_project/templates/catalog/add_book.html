@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'catalog/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Add a new book</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Add book</button>
+        </form>
+        <a class="back-link" href="{% url 'catalog:index' %}">Back to list</a>
+    </div>
+</body>
+</html>
