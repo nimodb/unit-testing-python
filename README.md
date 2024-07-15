@@ -9,10 +9,10 @@ Key Concepts in Unit Testing
 - Assertions: Statements that check if a condition is true. If the condition is false, the test fails.
 
 
-## [Complex Example](https://github.com/nimodb/unit-testing-python/tree/main/complexEx)
-
-
 ## [Basic Example](https://github.com/nimodb/unit-testing-python/tree/main/simpleEx)
+
+
+## [Complex Example](https://github.com/nimodb/unit-testing-python/tree/main/complexEx)
 
 ### Explanation of complex example
 
@@ -31,7 +31,7 @@ Key Concepts in Unit Testing
 
 ## [Django Example](https://github.com/nimodb/unit-testing-python/tree/main/djangoEx)
 
-### [Explanation of Library Project]()
+### [Explanation of Library Project](https://github.com/nimodb/unit-testing-python/tree/main/djangoEx/library_project)
 A Django-based library catalog application where users can view and add books to the catalog.
 
 You can generate dummy books with German authors by running the following management command:
